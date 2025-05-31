@@ -48,6 +48,7 @@ import { ConfigModule } from '@nestjs/config';
     UsersModule,
     CountryModule,
   ],
+  exports: [JwtModule],
   controllers: [AppController],
   providers: [AppService],
 })
